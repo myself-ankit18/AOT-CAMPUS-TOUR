@@ -286,6 +286,9 @@ a:hover {
   position: absolute;
   visibility: hidden;
 }
+option{
+  color: black;
+}
 
 @media screen and (max-width:891px) {
   .menu .a {
