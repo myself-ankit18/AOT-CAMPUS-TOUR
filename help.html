@@ -57,7 +57,7 @@
         border: 1px solid #ccc;
         border-radius: 5px;
         width: 250px;
-        margin-left: 50px;
+        margin:0 20px;
       }
       .textarea-box {
         padding: 10px;
@@ -65,7 +65,8 @@
         border: 1px solid #ccc;
         border-radius: 5px;
         width: 250px;
-        margin-left: 50px;
+        margin:0 20px;
+
       }
       .textarea-box:-moz-placeholder {
         font-family: "myFont", Arial, Helvetica, sans-serif;
@@ -95,6 +96,28 @@
       }
       .text-bold {
         font-weight: 700;
+      }
+      @media screen and (max-width:380px){
+        .text-box{
+          width:200px;
+        }
+        .textarea-box{
+          width:200px;
+        }
+        .heading{
+          font-size: 2.1em;
+        }
+      }
+      @media screen and (max-width:320px){
+        .text-box{
+          width:169px;
+        }
+        .textarea-box{
+          width:169px;
+        }
+        .heading{
+          font-size: 1.5em;
+        }
       }
     </style>
     <script>
