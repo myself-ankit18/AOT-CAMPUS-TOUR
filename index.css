@@ -43,8 +43,7 @@ body {
 
 body {
   background-image: url(images/aotcampus.jpg);
-  width: 100%;
-  height: 100%;
+
   position: absolute;
   transform: translate(0%, 0%);
   background-size: cover;
