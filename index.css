@@ -43,8 +43,8 @@ body {
 body {
   background-image: url(images/aotcampuss.jpg);
 
-  position: absolute;
-  transform: translate(0%, 0%);
+  /* position: absolute; */
+  /* transform: translate(0%, 0%); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
